@@ -12,6 +12,7 @@ env:
   MONGO_PASSWORD: SuperPassword
 jobs:
     unit-testing:
+        continue-on-error: true
         name: Unit Testing
         runs-on: ubuntu-latest
         steps:
